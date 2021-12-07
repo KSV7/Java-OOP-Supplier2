@@ -6,7 +6,6 @@ import java.util.function.IntSupplier;
 public class Main {
 
 	public static void main(String[] args) {
-//		Реализуйте IntSupplier последовательно возвращающий элемент из массива целых чисел.
 		int[] array = { 5, 8, 2, 6, 3, 9, 7 };
 		IntSupplier intsup = new GetIntNumFromArray(array);
 
